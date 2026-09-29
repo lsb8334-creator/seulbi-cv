@@ -1,0 +1,9 @@
+#idea-dialog iframe {
+  display: block;
+  width: min(880px, 100%);
+  aspect-ratio: 16 / 9;
+  margin: 0 auto 1rem;
+  border: 0;
+}
+
+#idea-dialog iframe[hidden] { display: none; }

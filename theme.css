@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
+
+:root { --ink:#1f2b33; --paper:#fdfcf9; --mist:#eef2ef; --sky:#e5ece9; --sun:#c59a43; --coral:#a77c2e; --line:#ccd5d1; --muted:#627079; --serif:'Source Serif 4',Georgia,serif; }
+.mission { max-width:680px; margin:2rem 0 2.4rem; font:400 clamp(1.4rem,2.7vw,2.15rem)/1.42 var(--serif); letter-spacing:-.025em; }
+.portrait { transform:none; background:var(--sky); }
+.hero-index { display:none; }
+.home-grid a:nth-child(1):hover,.home-grid a:nth-child(2):hover,.home-grid a:nth-child(3):hover,.home-grid a:nth-child(4):hover { background:var(--mist); }
+.home-grid a:hover { transform:translateY(-3px); }
+.nav nav a:hover,.nav nav a.active,.creative-item:hover h2,.creative-item:focus-visible h2,.hero-index,.home-grid span,.creative-item span { color:var(--coral); }
+@media (max-width:760px) { .mission { margin:1.5rem 0 1.8rem; } }

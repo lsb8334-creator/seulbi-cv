@@ -1,0 +1,46 @@
+@keyframes settle-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes soft-drift {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.page > *, .home-hero > .eyebrow, .profile-split, .home-grid {
+  animation: settle-in .55s cubic-bezier(.2,.7,.2,1) both;
+}
+
+.page > *:nth-child(2), .home-hero > .profile-split { animation-delay: .08s; }
+.page > *:nth-child(3), .home-grid { animation-delay: .16s; }
+.page > *:nth-child(4) { animation-delay: .24s; }
+
+.portrait { animation: soft-drift 5s ease-in-out .6s infinite; }
+.portrait:hover { animation-play-state: paused; transform: translateY(-4px); }
+
+.nav nav a { position: relative; }
+.nav nav a:not(.contact)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+  left: 0;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .22s ease;
+}
+
+.nav nav a:not(.contact):hover::after, .nav nav a.active:not(.contact)::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.creative-item, .home-grid a, .dialog-close { transition: transform .2s ease, background .2s ease, color .2s ease; }
+.dialog-close:hover { transform: translateY(-2px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}
