@@ -15,3 +15,4 @@ For ordinary updates, edit only `content.js` in GitHub's web editor. Add a prese
 5. Save. GitHub will show the public URL in the same area after a short wait.
 
 Before publishing, consider replacing the phone number with a contact form or removing it if you do not want it public.
+**Website:** [Visit my CV](https://lsb8334-creator.github.io/seulbi-cv/)
