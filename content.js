@@ -34,7 +34,7 @@ const profile = {
   memberships: "NASSM · KAASM · KSSM",
   creative: [
     { title: "Google Walkers", text: "Google Maps accessibility concept · 2024 · Concept development & copywriting · International recognition including New York Festivals Golds and Young Ones ADC Silvers.", image: "images/google-walkers-board.jpeg", video: "https://www.youtube-nocookie.com/embed/_xqxoU_MObc" },
-    { title: "Algorithm Controller", text: "Spotify recommendation-transparency concept · Cannes Lions Future Lions submission · 2024.", image: "images/algorithm-controller-board.jpeg" },
-    { title: "Mind Fit", text: "Apple Watch emotional-awareness concept · 2023.", image: "images/mind-fit-board.jpg" }
+    { title: "Algorithm Controller", text: "Spotify recommendation-transparency concept · Cannes Lions Future Lions submission · 2024.", image: "images/algorithm-controller-board.jpeg", video: "https://www.youtube-nocookie.com/embed/QAEuKi0VkLE" },
+    { title: "Mind Fit", text: "Apple Watch emotional-awareness concept · 2023.", image: "images/mind-fit-board.jpg", video: "https://www.youtube-nocookie.com/embed/ZpAo0nZ3Wsw" }
   ]
 };
