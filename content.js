@@ -6,34 +6,43 @@ const profile = {
   intro: "M.A. student in Global Sport Management at Seoul National University, with a background in physical education, public relations, and advertising.",
   researchInterests: "Consumer responses to advertising in mediated sport contexts, including cognitive, affective, and behavioral outcomes such as memory, attitudes, and purchase intentions.",
   inProgress: {
-    title: "Virtual advertising in sports broadcasts and audience memory",
-    description: "Examining how exposure frequency affects explicit and implicit memory, and how game suspense and low-intensity motion moderate those effects.",
-    status: "Lee, S., & Kim, K. · Work in progress; data collection underway"
+    title: "Virtual Advertising in Sports Broadcasts",
+    description: "Examining how exposure frequency affects explicit and implicit memory, moderated by game suspense.",
+    status: "Lee, S., & Kim, K. · Master’s thesis in progress; data collection completed"
   },
   education: [
     { date: "2025–Present", title: "M.A., Global Sport Management", place: "Seoul National University · Thesis Advisor: Prof. Kihan Kim" },
     { date: "2020–2025", title: "B.A., Physical Education / Public Relations & Advertising", place: "Sookmyung Women's University · Cumulative GPA: 3.97 / 4.5" }
   ],
   presentations: [
-    { date: "2026", title: "Human vs. AI Endorsers in Sport Advertising", place: "North American Society for Sport Management (NASSM) Annual Conference · San Juan, Puerto Rico" },
-    { date: "2026", title: "Effects of Virtual Advertising Exposure Frequency in Sports Broadcasts on Explicit and Implicit Memory", place: "European Association for Sport Management (EASM) Annual Conference · Thessaloniki, Greece" }
+    { date: "Oct 2026", title: "The Effects of AI Endorser Identity Disclosure in Sport Advertising on Consumer Attitudes", place: "Sport Management Division, 64th KAHPERD Annual Conference · Jeju, Korea" },
+    { date: "Sep 2026", title: "Effects of Virtual Advertising Exposure Frequency in Sports Broadcasts on Explicit and Implicit Memory", place: "European Association for Sport Management (EASM) Annual Conference · Thessaloniki, Greece" },
+    { date: "May 2026", title: "Human vs. AI Endorsers in Sport Advertising", place: "North American Society for Sport Management (NASSM) Annual Conference · San Juan, Puerto Rico" }
   ],
   awards: [
+    { date: "2026", title: "Outstanding Paper Presentation Award", place: "Korean Society for Sport Management · 64th KAHPERD Annual Conference" },
     { date: "2026", title: "BK21 Four Graduate Research Fellowship", place: "Ministry of Education & NRF Korea · KRW 6,000,000" },
     { date: "2026", title: "Student Presentation at an International Scholarly Conference", place: "Seoul National University College of Education Research Support Program · KRW 1,500,000" },
     { date: "2021–2024", title: "Selected academic & creative honors", place: "Academic Excellence Scholarship; Sookmyung Women's University Capstone Design Gold Prize; Seoul Community Contribution Capstone Design Fair Encouragement Award" }
   ],
   experience: [
-    { date: "2025–Present", title: "Research Assistant, International Student Integration Track", place: "SNU College, Seoul National University" },
-    { date: "2026–Present", title: "Instructor, Acro-Rhythm", place: "SNU-FUN Program, Center for Sport Development & Promotion, Seoul National University" },
+    { date: "Fall 2026", title: "Teaching Assistant, Gymnastics I, Sections 001 & 002", place: "Department of Physical Education, Seoul National University" },
+    { date: "Spring 2026–Present", title: "Instructor, Acro-Rhythm", place: "SNU-FUN Program, Center for Sport Development & Promotion, Seoul National University" },
+    { date: "Fall 2025–Spring 2026", title: "Research Assistant, International Student Integration Track", place: "SNU College, Seoul National University" },
     { date: "2020–2024", title: "Rhythmic Gymnastics Instructor", place: "Various academies and cultural centers, Seoul" }
   ],
-  athletic: ["Rhythmic Gymnastics Athlete, Korea Gymnastics Association (2011–2019)", "National Team Candidate, Rhythmic Gymnastics (2017–2018)", "International competition medals in Singapore, Malaysia, and Thailand (2017–2018)"],
+  athletic: [
+    "Rhythmic Gymnastics Athlete, Korea Gymnastics Association (2011–2019)",
+    "National Team Candidate, Rhythmic Gymnastics (2017–2018)",
+    "3rd Place, Ball — Singapore Open Championships, FIG (2018)",
+    "3rd Place, Hoop — 1st MAGGA Cup / Total Gym International Gymnastics Tournament, Malaysia (2017)",
+    "2nd Place, All-Around — Rhythmic Gymnastics Thailand Open (2017)"
+  ],
   researchTools: "PsychoPy · Pavlovia · R · Stata",
   creativeTools: "Adobe Premiere Pro · After Effects",
-  memberships: "NASSM · KAASM · KSSM",
+  memberships: "NASSM · KAASM · KSSM · KAHPERD · EASM",
   creative: [
-    { title: "Google Walkers", text: "Google Maps accessibility concept · 2024 · Concept development & copywriting · International recognition including New York Festivals Golds and Young Ones ADC Silvers.", image: "images/google-walkers-board.jpeg", video: "https://www.youtube-nocookie.com/embed/_xqxoU_MObc" },
+    { title: "Google Walkers", text: "Google Maps accessibility concept · 2024 · Concept development & copywriting · Recognition at six international advertising competitions, including New York Festivals Golds and Young Ones ADC Silvers.", image: "images/google-walkers-board.jpeg", video: "https://www.youtube-nocookie.com/embed/_xqxoU_MObc" },
     { title: "Algorithm Controller", text: "Spotify recommendation-transparency concept · Cannes Lions Future Lions submission · 2024.", image: "images/algorithm-controller-board.jpeg", video: "https://www.youtube-nocookie.com/embed/QAEuKi0VkLE" },
     { title: "Mind Fit", text: "Apple Watch emotional-awareness concept · 2023.", image: "images/mind-fit-board.jpg", video: "https://www.youtube-nocookie.com/embed/ZpAo0nZ3Wsw" }
   ]
