@@ -20,10 +20,12 @@ const profile = {
     { date: "May 26–29, 2026", title: "Human vs. AI Endorsers in Sport Advertising: The Interaction of Advertising Context and AI Labeling", place: "Presented at the North American Society for Sport Management (NASSM) Annual Conference · San Juan, Puerto Rico" }
   ],
   awards: [
-    { date: "2026", title: "Outstanding Paper Presentation Award", place: "Korean Society for Sport Management · 64th KAHPERD Annual Conference" },
-    { date: "2026", title: "BK21 Four Graduate Research Fellowship", place: "Ministry of Education & NRF Korea · KRW 6,000,000" },
+    { date: "2026", title: "Outstanding Paper Presentation Award", place: "Korean Society for Sport Management · 64th Annual Conference of KAHPERD" },
+    { date: "Mar–Aug 2026", title: "BK21 Four Graduate Research Fellowship", place: "Training Program for Global Leaders in Sports Science · Ministry of Education & NRF Korea · KRW 6,000,000" },
     { date: "2026", title: "Student Presentation at an International Scholarly Conference", place: "Seoul National University College of Education Research Support Program · KRW 1,500,000" },
-    { date: "2021–2024", title: "Selected academic & creative honors", place: "Academic Excellence Scholarship; Sookmyung Women's University Capstone Design Gold Prize; Seoul Community Contribution Capstone Design Fair Encouragement Award" }
+    { date: "2024", title: "Seoul Metropolitan Council Chair’s Encouragement Award", place: "Seoul Community Contribution Capstone Design Fair" },
+    { date: "2023", title: "Gold Prize", place: "Sookmyung Women’s University Capstone Design Competition" },
+    { date: "Spring 2021", title: "Academic Excellence Scholarship", place: "Sookmyung Women’s University · KRW 1,000,000" }
   ],
   experience: [
     { date: "Fall 2026", title: "Teaching Assistant, Gymnastics I, Sections 001 & 002", place: "Department of Physical Education, Seoul National University" },
