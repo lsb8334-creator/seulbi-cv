@@ -15,9 +15,9 @@ const profile = {
     { date: "2020–2025", title: "B.A., Physical Education / Public Relations & Advertising", place: "Sookmyung Women's University · Cumulative GPA: 3.97 / 4.5" }
   ],
   presentations: [
-    { date: "Oct 2026", title: "The Effects of AI Endorser Identity Disclosure in Sport Advertising on Consumer Attitudes", place: "Sport Management Division, 64th KAHPERD Annual Conference · Jeju, Korea" },
-    { date: "Sep 2026", title: "Effects of Virtual Advertising Exposure Frequency in Sports Broadcasts on Explicit and Implicit Memory", place: "European Association for Sport Management (EASM) Annual Conference · Thessaloniki, Greece" },
-    { date: "May 2026", title: "Human vs. AI Endorsers in Sport Advertising", place: "North American Society for Sport Management (NASSM) Annual Conference · San Juan, Puerto Rico" }
+    { date: "Oct 17, 2026", title: "The Effects of AI Endorser Identity Disclosure in Sport Advertising on Consumer Attitudes: The Moderating Role of Advertising Context", place: "Presented at the Sport Management Division of the 64th Annual Conference of the Korean Alliance for Health, Physical Education, Recreation, and Dance (KAHPERD), commemorating the 107th National Sports Festival · Jeju, Korea" },
+    { date: "Sep 15–18, 2026", title: "Effects of Virtual Advertising Exposure Frequency in Sports Broadcasts on Explicit and Implicit Memory: The Moderating Roles of Game Suspense and Low-Intensity Motion", place: "Presentation at the European Association for Sport Management (EASM) Annual Conference · Thessaloniki, Greece" },
+    { date: "May 26–29, 2026", title: "Human vs. AI Endorsers in Sport Advertising: The Interaction of Advertising Context and AI Labeling", place: "Presented at the North American Society for Sport Management (NASSM) Annual Conference · San Juan, Puerto Rico" }
   ],
   awards: [
     { date: "2026", title: "Outstanding Paper Presentation Award", place: "Korean Society for Sport Management · 64th KAHPERD Annual Conference" },
